@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle error in R: the silent failure of `read.csv` when the specified file does not exist.  The `bug.R` file shows the problematic code, while `bugSolution.R` provides a corrected version that gracefully handles the potential error using `tryCatch`. This is crucial for robust R scripts that need to handle various file I/O scenarios.
